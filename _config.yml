@@ -1,0 +1,36 @@
+title: Samuel's Portfolio
+email: tu-email@example.com
+description: >-
+  Desarrollador fullstack | Proyectos y experiencia profesional
+baseurl: ""
+url: "https://samuellb2104.github.io"
+github_username: samuellb2104-bit
+linkedin_username: tu-linkedin
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima customization
+minima:
+  skin: dark
+  date_format: "%b %d, %Y"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /proyectos/:slug
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .gitignore
