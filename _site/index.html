@@ -12,56 +12,80 @@
         <a class="site-title" href="/">Samuel's Portfolio</a>
         <nav class="site-nav">
           <a class="nav-link" href="/about/">About Me</a>
+          <label class="dark-toggle" title="Toggle dark mode">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="toggle-track">
+              <span class="toggle-thumb"></span>
+            </span>
+            <span class="toggle-icon">🌙</span>
+          </label>
         </nav>
       </div>
     </header>
 
     <main>
       <div class="hero">
-  <h1>Samuel L. B.</h1>
-  <p>Desarrollador Fullstack | Especialista en Web Development</p>
+  <h1>Samuel López Bonilla.</h1>
+  <p>Junior Developer | Especialista en Web Development</p>
   <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
 </div>
 
 <div class="wrapper">
   <div class="post-list">
-    <h2 id="proyectos" style="text-align: center; margin-bottom: 3rem; color: #1f2937;">Proyectos Destacados</h2>
+    <h2 id="proyectos" style="text-align: center; margin-bottom: 3rem; color: var(--text);">Proyectos Destacados</h2>
 
     <div class="projects-grid">
-      <!-- Proyecto 1: Cambiar según tus proyectos reales -->
+      
       <div class="project-card">
-        <h3>Aplicación de Tareas</h3>
-        <p>Una aplicación fullstack para gestionar tareas con autenticación de usuarios, interfaz interactiva y base de datos persistente.</p>
+        <h3>VITAE - Donation Platform</h3>
+        <div class="card-images">
+          <img src="/assets/images/Capturas-VITAE/SS-vitae-01.png" class="active" alt="Vista principal">
+          <img src="/assets/images/Capturas-VITAE/SS-vitae-02.png" alt="Vista 2">
+          <img src="/assets/images/Capturas-VITAE/SS-vitae-03.png" alt="Vista 3">
+          <img src="/assets/images/Capturas-VITAE/SS-vitae-04.png" alt="Vista 4">
+        </div>
+        <p>Desktop Platform that connects donors with foundations. Includes an internal messaging system, publication system and more. 
+          Built collaboratively. Individual contributions are documented in the project README.
+        </p>
         <div class="tech">
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Node.js</span>
-          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">POO</span>
+          <span class="tech-tag">SQL Server</span>
+          <span class="tech-tag">Java Swing</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/samuellb2104-bit" class="btn btn-primary" target="_blank">Ver Código</a>
-          <a href="#" class="btn btn-secondary">Demo</a>
+          <a href="https://github.com/samuellb2104-bit/VITAE" class="btn btn-primary" target=>GitHub</a>
+          <a href="https://github.com/SamuSgp" class="btn btn-secondary">Teammate Info</a>
         </div>
       </div>
 
       <!-- Proyecto 2 -->
       <div class="project-card">
-        <h3>Dashboard de Análisis</h3>
-        <p>Panel de control interactivo con gráficos en tiempo real, filtros avanzados y exportación de reportes en PDF.</p>
+        <h3>Weather Dashboard</h3>
+        <div class="card-images">
+          <img src="/assets/images/weather-app/SS-weather-01.png" class="active" alt="Vista principal">
+          <img src="/assets/images/weather-app/SS-weather-02.png" alt="Vista 2">
+          <img src="/assets/images/weather-app/SS-weather-03.png" alt="Vista 3">
+          <img src="/assets/images/weather-app/SS-weather-04.png" alt="Vista 4">
+        </div>
+        <p>A responsive weather dashboard that lets users search by city or ZIP code to view real-time weather data, including temperature, humidity, wind speed, and a map centered on the selected location.</p>
         <div class="tech">
-          <span class="tech-tag">Vue.js</span>
-          <span class="tech-tag">D3.js</span>
-          <span class="tech-tag">Python</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">HTML/CSS</span>
+          <span class="tech-tag">OpenWeather API</span>
+          <span class="tech-tag">Leaflet.js</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/samuellb2104-bit" class="btn btn-primary" target="_blank">Ver Código</a>
-          <a href="#" class="btn btn-secondary">Demo</a>
+          <a href="https://weather-app-git-main-samuellb2104-bits-projects.vercel.app/" class="btn btn-primary" target="_blank">WEB</a>
+          <a href="https://github.com/samuellb2104-bit/weather-app" class="btn btn-secondary">GitHub</a>
+          <a href="https://youtu.be/ZPG2wGNj6J4" class="btn btn-secondary">Inspo</a>
         </div>
       </div>
 
       <!-- Proyecto 3 -->
       <div class="project-card">
         <h3>E-commerce Platform</h3>
-        <p>Plataforma de tienda online con carrito de compras, pasarela de pagos, inventario y panel administrativo.</p>
+        <p>A full-featured e-commerce platform with a shopping cart, payment gateway, inventory management, and admin panel.</p>
         <div class="tech">
           <span class="tech-tag">Next.js</span>
           <span class="tech-tag">Stripe</span>
@@ -88,5 +112,7 @@
         <p>© 2026 Samuel's Portfolio</p>
       </div>
     </footer>
+    <script src="/assets/js/carousel.js"></script>
+    <script src="/assets/js/darkmode.js"></script>
   </body>
 </html>
