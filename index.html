@@ -1,84 +1,113 @@
 ---
-layout: default 
+layout: default
 ---
 
-<div class="hero">
-  <h1>Samuel López Bonilla.</h1>
-  <p>Junior Developer | Especialista en Web Development</p>
-  <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
-</div>
+<section class="hero">
+  <div class="wrapper">
+    <p class="hero-eyebrow">Portfolio — 2026</p>
+    <h1 class="hero-title">Samuel López<br>Bonilla</h1>
+    <p class="hero-role">Junior Software Engineer &amp; Prompt Engineer</p>
+    <p class="hero-intro">I build practical software for real-world and social problems — from donation platforms to AI-driven tools.</p>
+    <a href="#work" class="hero-scroll">Selected work ↓</a>
+  </div>
+</section>
 
-<div class="wrapper">
-  <div class="post-list">
-    <h2 id="proyectos" style="text-align: center; margin-bottom: 3rem; color: var(--text);">Proyectos Destacados</h2>
-
-    <div class="projects-grid">
-      
-      <div class="project-card">
-        <h3>VITAE - Donation Platform</h3>
-        <div class="card-images">
-          <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-01.png' | relative_url }}" class="active" alt="Vista principal">
-          <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-02.png' | relative_url }}" alt="Vista 2">
-          <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-03.png' | relative_url }}" alt="Vista 3">
-          <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-04.png' | relative_url }}" alt="Vista 4">
-        </div>
-        <p>Desktop Platform that connects donors with foundations. Includes an internal messaging system, publication system and more. 
-          Built collaboratively. Individual contributions are documented in the project README.
-        </p>
-        <div class="tech">
-          <span class="tech-tag">Java</span>
-          <span class="tech-tag">POO</span>
-          <span class="tech-tag">SQL Server</span>
-          <span class="tech-tag">Java Swing</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/samuellb2104-bit/VITAE" class="btn btn-primary" target=>GitHub</a>
-          <a href="https://github.com/SamuSgp" class="btn btn-secondary">Teammate Info</a>
-        </div>
-      </div>
-
-      <!-- Proyecto 2 -->
-      <div class="project-card">
-        <h3>Weather Dashboard</h3>
-        <div class="card-images">
-          <img src="{{ '/assets/images/weather-app/SS-weather-01.png' | relative_url }}" class="active" alt="Vista principal">
-          <img src="{{ '/assets/images/weather-app/SS-weather-02.png' | relative_url }}" alt="Vista 2">
-          <img src="{{ '/assets/images/weather-app/SS-weather-03.png' | relative_url }}" alt="Vista 3">
-          <img src="{{ '/assets/images/weather-app/SS-weather-04.png' | relative_url }}" alt="Vista 4">
-        </div>
-        <p>A responsive weather dashboard that lets users search by city or ZIP code to view real-time weather data, including temperature, humidity, wind speed, and a map centered on the selected location.</p>
-        <div class="tech">
-          <span class="tech-tag">JavaScript</span>
-          <span class="tech-tag">HTML/CSS</span>
-          <span class="tech-tag">OpenWeather API</span>
-          <span class="tech-tag">Leaflet.js</span>
-        </div>
-        <div class="project-links">
-          <a href="https://weather-app-three-pi-96.vercel.app/" class="btn btn-primary" target="_blank">WEB</a>
-          <a href="https://github.com/samuellb2104-bit/weather-app" class="btn btn-secondary">GitHub</a>
-          <a href="https://youtu.be/ZPG2wGNj6J4" class="btn btn-secondary">Inspo</a>
-        </div>
-      </div>
-
-      <!-- Proyecto 3 -->
-      <div class="project-card">
-        <h3>E-commerce Platform</h3>
-        <p>A full-featured e-commerce platform with a shopping cart, payment gateway, inventory management, and admin panel.</p>
-        <div class="tech">
-          <span class="tech-tag">Next.js</span>
-          <span class="tech-tag">Stripe</span>
-          <span class="tech-tag">PostgreSQL</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/samuellb2104-bit" class="btn btn-primary" target="_blank">Ver Código</a>
-          <a href="#" class="btn btn-secondary">Demo</a>
-        </div>
-      </div>
+<section id="work" class="work">
+  <div class="wrapper">
+    <div class="section-head">
+      <span class="eyebrow">Selected Work</span>
     </div>
 
-    <div style="text-align: center; margin-top: 3rem;">
-      <p style="color: #6b7280; font-size: 1.05rem;">¿Quieres ver más proyectos?</p>
-      <a href="https://github.com/samuellb2104-bit" class="btn btn-primary" target="_blank">Visita mi GitHub</a>
+    <ol class="project-list">
+
+      <li class="project-card">
+        <div class="project-index">01</div>
+        <div class="project-body">
+          <h3 class="project-title">VITAE — Donation Platform</h3>
+          <p class="project-desc">Desktop platform that connects donors with foundations. Includes an internal messaging system, a publication system, and more. Built collaboratively; individual contributions are documented in the project README.</p>
+          <p class="project-tech">Java · POO · SQL Server · Java Swing</p>
+          <div class="project-links">
+            <a class="text-link" href="https://github.com/samuellb2104-bit/VITAE" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="text-link" href="https://github.com/SamuSgp" target="_blank" rel="noopener">Teammate ↗</a>
+          </div>
+        </div>
+        <div class="project-media">
+          <div class="card-images">
+            <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-01.png' | relative_url }}" class="active" alt="VITAE main view">
+            <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-02.png' | relative_url }}" alt="VITAE view 2">
+            <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-03.png' | relative_url }}" alt="VITAE view 3">
+            <img src="{{ '/assets/images/Capturas-VITAE/SS-vitae-04.png' | relative_url }}" alt="VITAE view 4">
+          </div>
+        </div>
+      </li>
+
+      <li class="project-card">
+        <div class="project-index">02</div>
+        <div class="project-body">
+          <h3 class="project-title">Weather Dashboard</h3>
+          <p class="project-desc">A responsive weather dashboard that lets users search by city or ZIP code to view real-time weather data, including temperature, humidity, wind speed, and a map centered on the selected location.</p>
+          <p class="project-tech">JavaScript · HTML/CSS · OpenWeather API · Leaflet.js</p>
+          <div class="project-links">
+            <a class="text-link" href="https://weather-app-three-pi-96.vercel.app/" target="_blank" rel="noopener">Live ↗</a>
+            <a class="text-link" href="https://github.com/samuellb2104-bit/weather-app" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="text-link" href="https://youtu.be/ZPG2wGNj6J4" target="_blank" rel="noopener">Inspo ↗</a>
+          </div>
+        </div>
+        <div class="project-media">
+          <div class="card-images">
+            <img src="{{ '/assets/images/weather-app/SS-weather-01.png' | relative_url }}" class="active" alt="Weather dashboard main view">
+            <img src="{{ '/assets/images/weather-app/SS-weather-02.png' | relative_url }}" alt="Weather view 2">
+            <img src="{{ '/assets/images/weather-app/SS-weather-03.png' | relative_url }}" alt="Weather view 3">
+            <img src="{{ '/assets/images/weather-app/SS-weather-04.png' | relative_url }}" alt="Weather view 4">
+          </div>
+        </div>
+      </li>
+
+      <li class="project-card">
+        <div class="project-index">03</div>
+        <div class="project-body">
+          <h3 class="project-title">NBA Predictor</h3>
+          <p class="project-desc">A machine learning model that predicts the outcome of NBA games based on historical data and team statistics. Currently in development.</p>
+          <p class="project-tech">Python · Streamlit · NBA API · FastAPI · Monte Carlo</p>
+          <div class="project-links">
+            <a class="text-link" href="https://github.com/samuellb2104-bit/NBA-Predictor" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="project-media">
+          <div class="card-images">
+            <img src="{{ '/assets/images/NBA-Predictor/SS-NBA-01.png' | relative_url }}" class="active" alt="NBA Predictor main view">
+            <img src="{{ '/assets/images/NBA-Predictor/SS-NBA-02.png' | relative_url }}" alt="NBA Predictor view 2">
+            <img src="{{ '/assets/images/NBA-Predictor/SS-NBA-03.png' | relative_url }}" alt="NBA Predictor view 3">
+          </div>
+        </div>
+      </li>
+
+      <li class="project-card">
+        <div class="project-index">04</div>
+        <div class="project-body">
+          <h3 class="project-title">AI Expense Recognition System</h3>
+          <p class="project-desc">AI-powered web application that automates invoice and receipt processing using OCR and document intelligence. Designed to reduce manual expense management by classifying financial documents, organizing records, and streamlining business workflows through an intuitive interface.</p>
+          <p class="project-note">* Illustrative images of the project</p>
+          <p class="project-tech">Python · OCR · Claude API · PostgreSQL · Supabase</p>
+          <div class="project-links">
+            <a class="text-link" href="https://github.com/samuellb2104-bit/AI-Expense-Recognition-System" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="project-media">
+          <div class="card-images">
+            <img src="{{ '/assets/images/Expenses/SS-EXPENSES-01.png' | relative_url }}" class="active" alt="Expense system main view">
+            <img src="{{ '/assets/images/Expenses/SS-EXPENSES-02.png' | relative_url }}" alt="Expense system view 2">
+            <img src="{{ '/assets/images/Expenses/SS-EXPENSES-03.png' | relative_url }}" alt="Expense system view 3">
+            <img src="{{ '/assets/images/Expenses/SS-EXPENSES-04.png' | relative_url }}" alt="Expense system view 4">
+          </div>
+        </div>
+      </li>
+
+    </ol>
+
+    <div class="work-outro">
+      <p>Want to see more?</p>
+      <a class="text-link" href="https://github.com/samuellb2104-bit" target="_blank" rel="noopener">Visit my GitHub ↗</a>
     </div>
   </div>
-</div>
+</section>

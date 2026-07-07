@@ -4,57 +4,44 @@ title: About Me
 permalink: /about/
 ---
 
-<div class="wrapper">
-  <article class="post">
-    <h1 class="post-title">About Me</h1>
+<article class="about">
+  <div class="wrapper">
 
-    <div class="about-content">
-      <h2>Hi, I'm Samuel</h2>
-      
-      <p>
-        I'm a Systems Engineering student at EAFIT University, currently building my foundation in software development through academic work, online learning, and personal projects.
-      </p>
+    <header class="about-head">
+      <span class="eyebrow">About</span>
+      <h1 class="about-title">Hi, I'm Samuel</h1>
+    </header>
 
-      <p>
-        My interest in technology comes from its ability to solve real-world and social problems. I'm especially motivated by how fast areas like AI are evolving and how they can be applied to create practical solutions.
-      </p>
+    <div class="prose">
+      <p>I'm a Systems Engineering student at EAFIT University, currently building my foundation in software development through academic work, online learning, and personal projects.</p>
+      <p>My interest in technology comes from its ability to solve real-world and social problems. I'm especially motivated by how fast areas like AI are evolving and how they can be applied to create practical solutions.</p>
+      <p>I enjoy building solutions inspired by real needs — improving usability, organizing information, and solving everyday challenges for people and small businesses. My projects are shaped by personal initiatives, university work, and real-world contexts.</p>
+      <p>My approach combines analytical thinking, practical problem-solving, and collaboration. Beyond tech, being part of the Antioquia Basketball Team has strengthened how I approach teamwork, discipline, and performing in collaborative environments.</p>
+      <p>Currently, I'm looking for internship or freelance opportunities where I can contribute to real projects, gain hands-on experience, and continue growing as a developer while collaborating with international teams.</p>
+    </div>
 
-      <p>
-        I enjoy building solutions inspired by real needs—improving usability, organizing information, and solving everyday challenges for people and small businesses. My projects are shaped by personal initiatives, university work, and real-world contexts.
-      </p>
-
-      <p>
-        My approach combines analytical thinking, practical problem-solving, and collaboration. Beyond tech, being part of Antioquia Basketball Team has strengthened how I approach teamwork, discipline, and performing in collaborative environments.
-      </p>
-
-      <p>
-        Currently, I'm looking for internship or freelance opportunities where I can contribute to real projects, gain hands-on experience, and continue growing as a developer while collaborating with international teams.
-      </p>
-
-      <h2>Technical Skills</h2>
-
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Programming & Development</h3>
+    <section class="about-section">
+      <span class="eyebrow">Technical Skills</span>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Programming &amp; Development</h3>
           <ul>
             <li>Python</li>
             <li>Java</li>
-            <li>C++ (Object-Oriented Programming)</li>
-            <li>HTML</li>
-            <li>SQL</li>
+            <li>HTML/CSS</li>
+            <li>Supabase</li>
           </ul>
         </div>
-
-        <div class="skill-category">
+        <div class="skill-group">
           <h3>Databases</h3>
           <ul>
             <li>SQLite</li>
             <li>SQL Server</li>
+            <li>PostgreSQL</li>
           </ul>
         </div>
-
-        <div class="skill-category">
-          <h3>Tools & Technologies</h3>
+        <div class="skill-group">
+          <h3>Tools &amp; Technologies</h3>
           <ul>
             <li>Git / GitHub</li>
             <li>AWS (currently learning)</li>
@@ -62,34 +49,55 @@ permalink: /about/
             <li>OpenAI ChatGPT</li>
           </ul>
         </div>
-
-        <div class="skill-category">
+        <div class="skill-group">
           <h3>Interests</h3>
           <ul>
-            <li>Artificial Intelligence</li>
-            <li>Problem Solving</li>
+            <li>Prompt Engineering</li>
+            <li>Agents Development</li>
             <li>Social Impact Solutions</li>
-            <li>Productivity & Organization</li>
+            <li>Productivity &amp; Organization</li>
             <li>Collaborative Development</li>
           </ul>
         </div>
       </div>
+    </section>
 
-      <h2>Education</h2>
-      <ul style="list-style: none; padding: 0;">
-        <li><strong>Systems Engineering</strong> - EAFIT University (Currently pursuing)</li>
-        <li><strong>Additional Learning</strong> - Online coursework in programming, databases, AI tools, and cloud technologies</li>
-      </ul>
+    <section class="about-section">
+      <span class="eyebrow">Education</span>
+      <dl class="facts">
+        <div>
+          <dt>Systems Engineering</dt>
+          <dd>EAFIT University — currently pursuing</dd>
+        </div>
+        <div>
+          <dt>Additional Learning</dt>
+          <dd>Online coursework in MCP servers, datasets, AI tools, workflows &amp; agents</dd>
+        </div>
+        <div>
+          <dt>Claude API</dt>
+          <dd>Building with the Anthropic Claude API certificate</dd>
+        </div>
+      </dl>
+    </section>
 
-      <h2>Contact</h2>
-      <p>
-        Have an interesting opportunity or want to connect? Feel free to reach out.
-      </p>
-      <ul style="list-style: none; padding: 0;">
-        <li><strong>GitHub:</strong> <a href="https://github.com/samuellb2104-bit" target="_blank">github.com/samuellb2104-bit</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/samuel-lópez-bonilla-1b624b300/?skipRedirect=true" target="_blank">LinkedIn profile</a></li>
-        <li><strong>Email:</strong> <a href="mailto:samuellb2104@gmail.com"> My email</a></li>
+    <section class="about-section">
+      <span class="eyebrow">Contact</span>
+      <p class="prose">Have an interesting opportunity or want to connect? Feel free to reach out.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="label">GitHub</span>
+          <a href="https://github.com/samuellb2104-bit" target="_blank" rel="noopener">github.com/samuellb2104-bit</a>
+        </li>
+        <li>
+          <span class="label">LinkedIn</span>
+          <a href="https://linkedin.com/in/samuel-lópez-bonilla-1b624b300/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn profile</a>
+        </li>
+        <li>
+          <span class="label">Email</span>
+          <a href="mailto:samuellb2104@gmail.com">samuellb2104@gmail.com</a>
+        </li>
       </ul>
-    </div>
-  </article>
-</div>
+    </section>
+
+  </div>
+</article>
